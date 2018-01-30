@@ -125,7 +125,7 @@ RCT_EXPORT_METHOD(mail:(NSDictionary *)options
             }
 
             // Add attachment
-            [mail addAttachmentData:fileData mimeType:mimeType fileName:attachmentName];
+            // [mail addAttachmentData:fileData mimeType:mimeType fileName:attachmentName];
         }
 
         UIViewController *root = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
